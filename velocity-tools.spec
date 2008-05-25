@@ -63,6 +63,7 @@ BuildRequires:  jakarta-commons-validator >= 0:1.1.4
 BuildRequires:  dom4j
 BuildRequires:	jaxen >= 0:1.1
 BuildRequires:  jpackage-utils >= 0:1.7.2
+BuildRequires:  java-rpmbuild
 BuildRequires:  servletapi5
 BuildRequires:	struts >= 0:1.2.7
 # FIXME
