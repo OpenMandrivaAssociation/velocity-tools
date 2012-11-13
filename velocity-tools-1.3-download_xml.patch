@@ -1,0 +1,12 @@
+--- download.xml.sav	2007-08-26 14:44:25.000000000 +0200
++++ download.xml	2007-08-26 14:44:37.000000000 +0200
+@@ -105,7 +105,9 @@
+   <target name="do-http-download" unless="skip-download">
+     <!-- set download.path if not set previously -->
+     <property name="download.path" value="${download.name}/${download.name}/${download.version}" />
++<!--
+     <setproxy proxyhost="${proxy.host}" proxyport="${proxy.port}"/>
++-->
+     <get src="${repo.url}/${download.path}/${download.name}-${download.version}.jar"
+          dest="${lib.dir}/${download.name}-${download.version}.jar"
+          usetimestamp="false"
