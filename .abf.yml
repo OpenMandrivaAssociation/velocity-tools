@@ -1,6 +1,2 @@
 sources:
-  "sslext-1.2-0.jar:"	c86a7db4ac0bc450e675f3d44b3d64cdc934361b
-  "velocity-tools-1.4-src.tar.gz:"	0a10f94487fd86550b40b615f88b88e906179e9f
-  "velocity-tools-jpp-depmap.xml:"	852ef16e21423f88aeca6a46a8f9b1ed805a8db2
-  "velocity-tools-settings.xml:"	50f1727477a1f8a63f96b2bc48a7ac714c94b2af
-  "velocity-tools-site.xml:"	bf5db2ff7aefdd512a1696664c39e4604d2deecd
+  velocity-tools-2.0-src.tar.gz: 0d4c01cb0bb06fa07098dd278ff470d5223685ee

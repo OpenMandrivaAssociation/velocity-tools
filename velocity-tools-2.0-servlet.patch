@@ -1,0 +1,11 @@
+--- src/main/java/org/apache/velocity/tools/view/ParameterTool.java	2009-05-12 00:24:53.000000000 +0200
++++ src/main/java/org/apache/velocity/tools/view/ParameterTool.java-gil	2012-05-30 17:19:25.741937122 +0200
+@@ -174,7 +174,7 @@
+         Map source = super.getSource();
+         if (source == null)
+         {
+-            source = expandSingletonArrays(getRequest().getParameterMap());
++            source = expandSingletonArrays((Map<String,Object>)(Object)getRequest().getParameterMap());
+             super.setSource(source);
+         }
+         return source;
