@@ -1,8 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          velocity-tools
 Version:       2.0
-Release:       7.0%{?dist}
+Release:       7.1
 Summary:       Collection of useful tools for Velocity template engine
+Group:		Development/Java
 License:       ASL 2.0
 Url:           http://velocity.apache.org/tools/releases/2.0/
 Source0:       http://www.apache.org/dist/velocity/tools/%{version}/%{name}-%{version}-src.tar.gz
@@ -47,7 +48,7 @@ BuildRequires: maven-local
 BuildRequires: maven-resources-plugin
 # required by resources-plugin
 BuildRequires: mvn(org.apache.maven.shared:maven-filtering)
-BuildRequires: mvn(org.apache.maven.shared:maven-shared-components)
+BuildRequires: mvn(org.apache.maven.shared:maven-shared-components:pom:)
 
 BuildArch:     noarch
 
