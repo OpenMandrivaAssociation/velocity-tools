@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          velocity-tools
 Version:       2.0
-Release:       7.1
+Release:       7.2
 Summary:       Collection of useful tools for Velocity template engine
 Group:		Development/Java
 License:       ASL 2.0
