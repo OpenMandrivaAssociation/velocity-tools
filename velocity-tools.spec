@@ -5,7 +5,7 @@ Release:       7.2
 Summary:       Collection of useful tools for Velocity template engine
 Group:		Development/Java
 License:       ASL 2.0
-Url:           http://velocity.apache.org/tools/releases/2.0/
+Url:           https://velocity.apache.org/tools/releases/2.0/
 Source0:       http://www.apache.org/dist/velocity/tools/%{version}/%{name}-%{version}-src.tar.gz
 Patch0:        %{name}-%{version}-junit4.patch
 Patch1:        %{name}-%{version}-dont_copy_test_lib.patch
